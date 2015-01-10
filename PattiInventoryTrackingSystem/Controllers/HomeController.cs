@@ -15,14 +15,14 @@ namespace PattiInventoryTrackingSystem.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "PITS is an inventory tracking system used for managing supplies at Patti's Shipyard Inc.";
+            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Patti's Shipyard Inc.";
+            ViewBag.Message = "Your contact page.";
 
             return View();
         }
