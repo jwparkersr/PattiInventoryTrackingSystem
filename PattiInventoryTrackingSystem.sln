@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PattiInventoryTrackingSyste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PattiInventoryTrackingSystem.Tests", "PattiInventoryTrackingSystem.Tests\PattiInventoryTrackingSystem.Tests.csproj", "{1D822324-C14B-450B-86E2-099405CED095}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{50DAB4B6-351C-4009-88EF-70D9809F0BF4}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E50C5FB9-E915-45D6-BA33-9E9CF0E3C58E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\PattiInventoryTrackingSystem-WAWS-dev.json = PublishScripts\Configurations\PattiInventoryTrackingSystem-WAWS-dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +35,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E50C5FB9-E915-45D6-BA33-9E9CF0E3C58E} = {50DAB4B6-351C-4009-88EF-70D9809F0BF4}
 	EndGlobalSection
 EndGlobal
