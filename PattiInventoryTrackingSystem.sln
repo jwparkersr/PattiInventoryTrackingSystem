@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Web
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PattiInventoryTrackingSystem", "PattiInventoryTrackingSystem\PattiInventoryTrackingSystem.csproj", "{BBC1EC9F-3183-4D64-A4FA-3C1B466EF7BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PattiInventoryTrackingSystem.Tests", "PattiInventoryTrackingSystem.Tests\PattiInventoryTrackingSystem.Tests.csproj", "{1D822324-C14B-450B-86E2-099405CED095}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC1EC9F-3183-4D64-A4FA-3C1B466EF7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC1EC9F-3183-4D64-A4FA-3C1B466EF7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC1EC9F-3183-4D64-A4FA-3C1B466EF7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC1EC9F-3183-4D64-A4FA-3C1B466EF7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D822324-C14B-450B-86E2-099405CED095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D822324-C14B-450B-86E2-099405CED095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D822324-C14B-450B-86E2-099405CED095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D822324-C14B-450B-86E2-099405CED095}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
